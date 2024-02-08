@@ -1,6 +1,6 @@
-package com.via.datastruct;
+package com.via.datastruct.recursion;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -16,32 +16,32 @@ public class RecursionTest {
 	@Test
 	public void test1() {
 		Recursion.openRussionDoll(5);
-		assertEquals(Recursion.openRussionDoll(5), "5 dolls are opened");
+		assertEquals("5 dolls are opened", Recursion.openRussionDoll(5));
 		
 	}
 	
 	@Test
 	public void test2() {
 		Recursion.openRussionDoll(1);
-		assertEquals(Recursion.openRussionDoll(1), "All dolls are opened");
+		assertEquals("All dolls are opened", Recursion.openRussionDoll(1));
 	}
 	
 	// factorial using recursive solution
 	@Test
 	public void test3() {
-		assertEquals(Recursion.powerOfTwo(5), 32);
+		assertEquals(32, Recursion.powerOfTwo(5));
 	}
 	
 	// factorial iterative
 	@Test
 	public void test4() {
-		assertEquals(Recursion.powerOfTwoIT(5), 32);
+		assertEquals(32, Recursion.powerOfTwoIT(5));
 	}
 	
 	@Test
 	public void test5() {
 		Recursion.factorial(3);
-		assertEquals(Recursion.factorial(3), 6);
+		assertEquals(6, Recursion.factorial(3));
 	}
 	
 	// Test fibonacci
