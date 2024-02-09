@@ -1,4 +1,4 @@
-package com.via.datastruct;
+package com.via.datastruct.recursion;
 
 /**
  * @author hunchmen

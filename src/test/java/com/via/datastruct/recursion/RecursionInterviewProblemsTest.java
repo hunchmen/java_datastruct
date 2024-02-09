@@ -8,8 +8,12 @@ public class RecursionInterviewProblemsTest {
 
 	@Test
 	public void test1() {
-
 		assertEquals(0, RecursionInterviewProblems.sumOfTwoDigits(-9));
+	}
+
+	@Test
+	public void test1dot1(){
+		assertEquals(3, RecursionInterviewProblems.sumOfTwoDigits(12));
 	}
 
 	@Test
